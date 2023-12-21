@@ -2,17 +2,14 @@
   "compilerOptions": {
     "outDir": "dist",
     "noImplicitAny": true,
-    "module": "esnext",
+    "module": "ESNext",
     "target": "es5",
-
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
-      "*": [
-        "src/*"
-      ]
+      "*": ["./src/*"]
     },
     // EsmoduleTnterop allows us to import default exports as if they were named exports
     // common js modules are exported as default exports
@@ -21,7 +18,7 @@
   },
   "ts-node": {
     "compilerOptions": {
-        "module": "commonjs"
+        "module": "CommonJS"
     }
   }
 }
